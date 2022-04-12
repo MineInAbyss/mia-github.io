@@ -18,7 +18,7 @@ export default function Home() {
             <div className={"wrapper"}>
                 {x}
                 <div className={"site"}>
-                    <div id={"text"} className={"p-5"}>
+                    <div id={"text"} className={"p-5 text-white"}>
                         hello this is a site for testing parallax now in: <img src="https://cdn.discordapp.com/attachments/838991750584074240/963271680845836368/cooltext408621478289695.gif"/><br/>
                         all artwork still belongs to <a href={"https://www.camposanto.com"} className={"text-blue-600 hover:underline"}> campo santo </a> and the <a href={"https://www.firewatchgame.com"} className={"text-blue-600 hover:underline"}> firewatch team </a> <br/>
                         <br/>
