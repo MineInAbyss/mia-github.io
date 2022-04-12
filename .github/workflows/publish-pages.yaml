@@ -10,6 +10,9 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
 
+    env:
+      NEXT_PUBLIC_BASE_PATH: /mia-github.io
+
     steps:
       - uses: actions/checkout@v2
 
@@ -30,3 +33,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./out
+          fqdn: mineinabyss.com
