@@ -10,9 +10,6 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
 
-    env:
-      NEXT_PUBLIC_BASE_PATH: /miaGithub.io
-
     steps:
       - uses: actions/checkout@v2
 
