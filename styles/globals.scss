@@ -12,7 +12,7 @@ body {
     background-color: #fedcc8;
 }
 
-.wrapper {
+#wrapper {
     perspective: 100px;
     height: 100vh;
     overflow-x: hidden;
@@ -27,7 +27,7 @@ body {
 .parallax__layer {
     position: absolute;
     width: 100vw;
-    top: 0;
+    top: 34px;
     right: 0;
     bottom: 0;
     left: 0;
