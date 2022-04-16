@@ -2,9 +2,9 @@ import {data} from "./data";
 
 export const buttons = {
     navbar: [
-        ['Downloads', data.links.downloads],
+        ['Home', data.links.downloads],
         ['Contribute', data.links.contribute],
-        ['Community', data.links.community],
+        ['Support', data.links.community],
         ['Faq', data.links.faq]
     ]
 }
