@@ -4,7 +4,7 @@ const documentLayout = ({content, title}) => {
             <div id={"wrapper"} className={"bg-gray-700"} style={{backgroundImage: 'url("https://mineinabyss.com/assets/lineart.png")'}}>
                 <div className={"flex text-xl font-bold text-gray-400 max-w-4xl mx-auto py-6 justify-between"}>
                     <div>
-                        /<a href={"mineinabyss.com/mia-github.io/"} className={"hover:underline hover:text-gray-300"}>Home</a>/
+                        /<a href={"/mia-github.io/"} className={"hover:underline hover:text-gray-300"}>Home</a>/
                         <a href={""} className={"hover:text-gray-300 hover:underline"}>{title}</a>
                     </div>
                 </div>
