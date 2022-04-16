@@ -1,13 +1,13 @@
 export const data = {
-    links: {
-        downloads: '/mia-github.io/downloads',
-        faq: '/mia-github.io/faq',
-        github: '/mia-github.io/github',
-        community: '/mia-github.io/community',
-        contribute: '/mia-github.io/contribute',
-        developers: '/mia-github.io/developers',
-        builders: '/mia-github.io/builders',
-        artists: '/mia-github.io/artists',
+    links: { //worlds cheapest way to fix hrefs :)
+        downloads: 'https://mineinabyss.com/mia-github.io/contribute/downloads',
+        faq: 'https://mineinabyss.com/mia-github.io/contribute/faq',
+        github: 'https://mineinabyss.com/mia-github.io/contribute/github',
+        community: 'https://mineinabyss.com/mia-github.io/contribute/community',
+        contribute: 'https://mineinabyss.com/mia-github.io/contribute',
+        developers: 'https://mineinabyss.com/mia-github.io/developers',
+        builders: 'https://mineinabyss.com/mia-github.io/builders',
+        artists: 'https://mineinabyss.com/mia-github.io/artists',
     },
     images: {
         devButton: 'https://cdn.discordapp.com/attachments/934287357207781386/964943433712152596/Untitled.png',
