@@ -9,8 +9,8 @@ export const buttons = {
     ],
 
     contributors: [
-        ['Developers', '', data.images.devButton],
-        ['Builders', '', data.images.buildButton],
-        ['Artists', '', data.images.artButton]
+        ['Developers', data.links.developers, data.images.devButton],
+        ['Builders', data.links.builders, data.images.buildButton],
+        ['Artists', data.links.artists, data.images.artButton]
     ]
 }
