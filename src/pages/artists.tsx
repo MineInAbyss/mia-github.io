@@ -1,7 +1,12 @@
+import DocumentLayout from "../components/Layouts/documentLayout";
+
 export default function artists() {
     return(
         <>
-            this is the artists page
+            <DocumentLayout title={"Artists"} content={
+                <>
+                </>
+            }/>
         </>
     )
 }

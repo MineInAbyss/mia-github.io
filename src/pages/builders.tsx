@@ -1,7 +1,12 @@
+import DocumentLayout from "../components/Layouts/documentLayout";
+
 export default function builders() {
     return (
         <>
-            this is the builders page
+            <DocumentLayout title={"Builders"} content={
+                <>
+                </>
+            }/>
         </>
     )
 }
