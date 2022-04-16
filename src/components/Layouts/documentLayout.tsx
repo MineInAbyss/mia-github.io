@@ -8,7 +8,7 @@ const documentLayout = ({content, title}) => {
                         <a href={""} className={"hover:text-gray-300 hover:underline"}>{title}</a>
                     </div>
                 </div>
-                <div id={"container"} className={"shadow-xl max-w-4xl mx-auto bg-gray-600 h-screen"}>
+                <div id={"container"} className={"shadow-xl max-w-4xl mx-auto bg-gray-600 h-screen mb-12"}>
                     {content}
                 </div>
             </div>
