@@ -6,5 +6,11 @@ export const buttons = {
         ['Contribute', data.links.contribute],
         ['Support', data.links.community],
         ['Faq', data.links.faq]
+    ],
+
+    contributors: [
+        ['Developers', '', data.images.devButton],
+        ['Builders', '', data.images.buildButton],
+        ['Artists', '', data.images.artButton]
     ]
 }
