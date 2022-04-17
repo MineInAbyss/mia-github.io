@@ -36,15 +36,14 @@ export default function Home() {
                                     Experience the abyss like never before
                                 </a>
                             </div>
-                            <div className={"grid grid-cols-2 gap-4 place-items-center py-12"}>
+                            <div className={"grid sm:grid-cols-1 lg:grid-cols-2 gap-4 place-items-center py-12"}>
                                 <div className={"hidden justify-center md:block bg-gray-600 rounded-2xl"} style={{height: 400, width: 400}}>
                                     image
                                 </div>
                                 <div>
                                     <div>
                                         <a className={"text-xl"}>
-                                            explore and contribute to the project on the <br/>
-                                            build server! <br/>
+                                            explore and contribute to the project on the build server:
                                         </a>
                                         <div id={"spacer"} className={"h-4"} />
                                         <div className={"flex justify-center"}>
@@ -54,17 +53,17 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div id={"spacer"} className={"h-8"} />
-                                    <div>
+                                    <div className={"flex justify-center"}>
                                         <a className={"text-xl"}>
-                                            Partake in events, fight the numerous creatures <br/>
-                                            of the abyss and make a name for yourself alongside <br/>
-                                            other players in our active and dedicated survival server <br/>
+                                            Partake in events, fight the numerous creatures of the abyss,
+                                            and make a name for yourself alongside other players in our
+                                            active and dedicated survival server:
                                         </a>
-                                        <div className={"flex justify-center"}>
-                                            <a className={"bg-gray-700 shadow-inner px-2 text-lg text-gray-200"}>
-                                                survive.mineinabyss.com
-                                            </a>
-                                        </div>
+                                    </div>
+                                    <div className={"flex justify-center"}>
+                                        <a className={"bg-gray-700 shadow-inner px-2 text-lg text-gray-200"}>
+                                            survive.mineinabyss.com
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -73,19 +72,19 @@ export default function Home() {
                             <div className={"py-12"}> features </div>
                             <div className={"grid grid-cols-3 place-items-center"}>
                                 <div>
-                                    <div> img </div>
-                                    <div> img </div>
-                                    <div> img </div>
-                                    <div> img </div>
+                                    <div> map </div>
+                                    <div> models </div>
+                                    <div> curse </div>
+                                    <div> mobs </div>
                                 </div>
                                 <div>
                                     this is text
                                 </div>
                                 <div>
-                                    <div> img </div>
-                                    <div> img </div>
-                                    <div> img </div>
-                                    <div> img </div>
+                                    <div> emotes </div>
+                                    <div> reset </div>
+                                    <div> trading </div>
+                                    <div> currency? </div>
                                 </div>
                             </div>
                         </section>

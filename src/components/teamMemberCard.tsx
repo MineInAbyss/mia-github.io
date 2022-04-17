@@ -4,9 +4,7 @@ const teamMemberCard = () => {
             <div className={"bg-gray-700"}>
                 <div className={"justify-between flex px-5 py-3"}>
                     <div className={"grid grid-cols-1 place-items-center"}>
-                        <a>
-                            img
-                        </a>
+                        <img src='' alt='img' />
                     </div>
                     <div className={"w-8 h-10"} />
                     <div>
