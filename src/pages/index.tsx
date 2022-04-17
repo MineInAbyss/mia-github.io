@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <>
             <div id={"wrapper"} style={{backgroundColor: '#FFAF1B'}}>
-                <div id={"navigation-wrapper"} className={"max-w-7xl mx-auto sm:px-6 lg:px-8"}>
+                <div id={"navigation-wrapper"} className={"max-w-4xl mx-auto"}>
                     <div id={"navigation"} className={"container flex flex-wrap justify-between"}>
                         <div id={"navigation-buttons-left"} className={"flex items-center space-x-3"}>
                             {
@@ -29,7 +29,7 @@ export default function Home() {
                 </div>
                 {parallax}
                 <div className={"site"}>
-                    <div id={"contents"} className={"max-w-7xl mx-auto sm:px-6 lg:px-8 text-white"}>
+                    <div id={"contents"} className={"max-w-4xl mx-auto text-white"}>
                         <section id={"landing-page"}>
                             <div className={"flex justify-center"}>
                                 <a className={"font-semibold text-3xl"}>
@@ -37,7 +37,7 @@ export default function Home() {
                                 </a>
                             </div>
                             <div className={"grid grid-cols-2 gap-4 place-items-center py-12"}>
-                                <div className={"bg-gray-600 rounded-2xl"} style={{height: 400, width: 400}}>
+                                <div className={"hidden justify-center md:block bg-gray-600 rounded-2xl"} style={{height: 400, width: 400}}>
                                     image
                                 </div>
                                 <div>
@@ -93,10 +93,10 @@ export default function Home() {
                             <div className={"flex justify-center font-semibold text-3xl pt-12"}>
                                 Meet our amazing teams who helped make the abyss a reality
                             </div>
-                            <div className={"flex space-x-8 justify-center py-8"}>
+                            <div className={"sm:block md:flex  justify-center "}>
                                 {
                                     buttons.contributors.map(([name, url, bg]) => (
-                                        <a href={url} key={name} className={"shadow-xl rounded-xl bg-center  px-16 py-9 text-xl font-bold hover:underline"} style={{backgroundImage: `url(${bg})`}}>{name}</a>
+                                        <a href={url} key={name} className={"flex shadow-xl rounded-xl bg-center justify-center px-16 py-9 mx-4 my-4  text-xl font-bold hover:underline"} style={{backgroundImage: `url(${bg})`}}>{name}</a>
                                     ))
                                 }
                             </div>
